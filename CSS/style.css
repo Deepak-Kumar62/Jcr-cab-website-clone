@@ -76,7 +76,6 @@ header{
     align-items: center;
     margin: auto;
     gap: 25px;
-    /* background-color: green; */
     position: relative;
 }
 
@@ -93,10 +92,6 @@ header{
     /* border: 1px solid red;  */
     position: absolute;  
 }
-
-/* .bottom-header-middle .logo .logo-top{
-    top: -21px;
-} */
 
 .bottom-header-middle .logo .logo-bottom{
     top: 7px;
@@ -186,15 +181,6 @@ header{
     outline: none;
     border-radius: 5px;
 }
-
-/* #page1 .page1_content form .search_btn::before{
-    content: "\f002";
-    margin-right: 5px;
-    display: inline-block;
-    background-color: red;
-    width: 20px;
-    height: 20px;
-} */
 
 #page1 .page1_content form input[type=number]{
     width: 15%;
@@ -520,14 +506,6 @@ header{
 #page6 .middle .row2 .col2 img{
     width: 100%;
 }
-
-/* #page6 .middle .icon_card img:hover{
-    animation-name: rotate;
-    animation-duration: 1s;
-    cursor: pointer;
-} */
-
-
 
 @keyframes rotate360{
     form{
