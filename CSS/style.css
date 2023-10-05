@@ -512,6 +512,14 @@ header{
     margin-bottom: 50px;
 }
 
+#page6 .middle .row2 .col2{
+    width: 72%;
+}
+
+#page6 .middle .row2 .col2 img{
+    width: 100%;
+}
+
 /* #page6 .middle .icon_card img:hover{
     animation-name: rotate;
     animation-duration: 1s;
