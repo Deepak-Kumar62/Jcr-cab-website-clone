@@ -462,6 +462,10 @@ header{
     position: absolute;
 }
 
+#page6 .middle .row1 .icon_card img{
+    width: 95%;
+}
+
 #page6 .middle .row1 .r1i1{
     top: 100px;
     left: 10%;
@@ -497,6 +501,11 @@ header{
 #page6 .middle .row2 .col1 .icon_card{
     margin-bottom: 50px;
 }
+
+#page6 .middle .row2 .col1 .icon_card img{
+    width: 70%;
+}
+
 
 #page6 .middle .row2 .col2{
     width: 72%;
