@@ -514,6 +514,7 @@ header{
 
 #page6 .middle .row2 .col2{
     width: 72%;
+    overflow: hidden;
 }
 
 #page6 .middle .row2 .col2 img{
