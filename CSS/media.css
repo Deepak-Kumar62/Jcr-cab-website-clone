@@ -47,15 +47,20 @@
         display: none;
     }
 
-    /* nav{
+    nav{
         position: fixed;
         width: 60%;
         height: 100vh;
         background-color: #222;
         top: 0;
-        left: 0px;
+        left: -300px;
         padding: 15px;
-    } */
+        transition: all 0.5s;
+    }
+
+    .navBar_toggle{
+        left: 0;
+    }
 
     
     .bottom-header-middle nav ul{
@@ -67,10 +72,6 @@
         color: #fff;
         font-size: 17px;
         font-weight: 500;
-    }
-
-    nav{
-        display: none;
     }
 
     .language{
@@ -182,6 +183,10 @@
 
     #page4 .middle .service_card{
         width: 80%;
+    }
+
+    #page4 .middle .service_card .img_wrapper .info p{
+        padding: 20px 20px 0;
     }
 
     #page4 .middle .service_card .text_wrapper p{
