@@ -23,7 +23,6 @@ slider.style.transform = `translateX(-${index * 100}%)`;
 const getSlides = () => document.querySelectorAll(".slide");
 
 const moveToNextSlide = () => {
-    console.log(index);
     slides = getSlides();
     if(index >= slides.length - 1) return;
     index++;
@@ -71,6 +70,7 @@ const menuBtn = document.getElementById("menu_btn");
 const navBar = document.querySelector("nav");
 
 menuBtn.addEventListener("click",() => {
+    alert("Clicked");
     navBar.classList.toggle("navBar_toggle");
     if(menuBtn.classList.contains("fa-bars")){
         menuBtn.classList.remove("fa-bars");
