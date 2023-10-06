@@ -70,7 +70,6 @@ const menuBtn = document.getElementById("menu_btn");
 const navBar = document.querySelector("nav");
 
 menuBtn.addEventListener("click",() => {
-    alert("Clicked");
     navBar.classList.toggle("navBar_toggle");
     if(menuBtn.classList.contains("fa-bars")){
         menuBtn.classList.remove("fa-bars");
