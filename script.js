@@ -65,6 +65,23 @@ prevBtn.addEventListener("click",moveToPrevSlide);
 
 startSliding()
 
+//navbar
+
+const menuBtn = document.getElementById("menu_btn");
+const navBar = document.querySelector("nav");
+
+menuBtn.addEventListener("click",() => {
+    navBar.classList.toggle("navBar_toggle");
+    if(menuBtn.classList.contains("fa-bars")){
+        menuBtn.classList.remove("fa-bars");
+        menuBtn.classList.add("fa-xmark");
+    }else{
+        menuBtn.classList.remove("fa-xmark");
+        menuBtn.classList.add("fa-bars"); 
+    }
+})
+
+
 
 
 //icon animation
